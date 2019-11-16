@@ -1,0 +1,18 @@
+name: Continuous Deployment
+on:
+  push:
+    branches:
+    - master
+    
+jobs:
+  composer-install:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checking out Repository
+        uses: actions/checkout@v1
+      - name: Generating Resourcepack
+        run: sh compile.sh
+      - name: Zipping Resources
+        uses: montudor/action-zip@v0.1.0
+        with:
+          args: zip -qq -r ./resourcepack.zip *
