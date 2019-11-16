@@ -1,0 +1,51 @@
+{
+	"MAGIC_SUGAR": {
+		"id": "magic_sugar",
+		"item": "sugar",
+		"type": "ITEM",
+		"data": 4000,
+		"texture": "magic_sugar"
+	},
+	"MAGIC_LUMP_1": {
+		"id": "magical_lump1",
+		"item": "gold_nugget",
+		"type": "ITEM",
+		"data": 4000,
+		"texture": "magical_lump1"
+	},
+	"MAGIC_LUMP_2": {
+		"id": "magical_lump2",
+		"item": "gold_nugget",
+		"type": "ITEM",
+		"data": 4001,
+		"texture": "magical_lump2"
+	},
+	"MAGIC_LUMP_3": {
+		"id": "magical_lump3",
+		"item": "gold_nugget",
+		"type": "ITEM",
+		"data": 4002,
+		"texture": "magical_lump3"
+	},
+	"ENDER_LUMP_1": {
+		"id": "ender_lump1",
+		"item": "gold_nugget",
+		"type": "ITEM",
+		"data": 4003,
+		"texture": "ender_lump1"
+	},
+	"ENDER_LUMP_2": {
+		"id": "magical_lump2",
+		"item": "gold_nugget",
+		"type": "ITEM",
+		"data": 4004,
+		"texture": "magical_lump2"
+	},
+	"ENDER_LUMP_3": {
+		"id": "ender_lump3",
+		"item": "gold_nugget",
+		"type": "ITEM",
+		"data": 4005,
+		"texture": "ender_lump3"
+	}
+}
