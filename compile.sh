@@ -5,4 +5,3 @@ node generate.js
 
 echo "Moving LICENSE..."
 mv LICENSE pack/
-cd pack
