@@ -15,4 +15,4 @@ jobs:
       - name: Zipping Resources
         uses: montudor/action-zip@v0.1.0
         with:
-          args: zip -qq -r ./resourcepack.zip *
+          args: zip -qq -r ./resourcepack.zip ./pack
