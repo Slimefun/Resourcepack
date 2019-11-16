@@ -19,7 +19,7 @@ jobs:
       - name: Zipping Resources
         uses: montudor/action-zip@v0.1.0
         with:
-          args: zip -r resourcepack.zip ./pack/*
+          args: cd pack && zip -r ../resourcepack.zip *
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1.0.0
