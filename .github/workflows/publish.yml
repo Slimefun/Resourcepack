@@ -19,15 +19,15 @@ jobs:
       - name: Zipping Resources
         uses: montudor/action-zip@v0.1.0
         with:
-          args: zip -qq -r ./resourcepack.zip ./pack
+          args: zip -r ./resourcepack.zip ./pack -d pack
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
+          tag_name: ${{ github.sha }}
+          release_name: Release ${{ github.sha }}
           draft: false
           prerelease: true
       - name: Upload Resourcepack.zip
