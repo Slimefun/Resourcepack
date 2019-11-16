@@ -19,14 +19,14 @@ jobs:
       - name: Zipping Resources
         uses: montudor/action-zip@v0.1.0
         with:
-          args: zip -r ./resourcepack.zip ./pack
+          args: zip -r -j ./resourcepack.zip ./pack
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.sha }}
+          tag_name: Tag ${{ github.sha }}
           release_name: Release ${{ github.sha }}
           draft: false
           prerelease: true
