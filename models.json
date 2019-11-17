@@ -3,49 +3,84 @@
 		"id": "magic_sugar",
 		"item": "sugar",
 		"type": "ITEM",
-		"data": 4000,
-		"texture": "magic_sugar"
+		"data": 4000
 	},
 	"MAGIC_LUMP_1": {
 		"id": "magical_lump1",
 		"item": "gold_nugget",
 		"type": "ITEM",
-		"data": 4000,
-		"texture": "magical_lump1"
+		"data": 4000
 	},
 	"MAGIC_LUMP_2": {
 		"id": "magical_lump2",
 		"item": "gold_nugget",
 		"type": "ITEM",
-		"data": 4001,
-		"texture": "magical_lump2"
+		"data": 4001
 	},
 	"MAGIC_LUMP_3": {
 		"id": "magical_lump3",
 		"item": "gold_nugget",
 		"type": "ITEM",
-		"data": 4002,
-		"texture": "magical_lump3"
+		"data": 4002
 	},
 	"ENDER_LUMP_1": {
 		"id": "ender_lump1",
 		"item": "gold_nugget",
 		"type": "ITEM",
-		"data": 4003,
-		"texture": "ender_lump1"
+		"data": 4003
 	},
 	"ENDER_LUMP_2": {
 		"id": "magical_lump2",
 		"item": "gold_nugget",
 		"type": "ITEM",
-		"data": 4004,
-		"texture": "magical_lump2"
+		"data": 4004
 	},
 	"ENDER_LUMP_3": {
 		"id": "ender_lump3",
 		"item": "gold_nugget",
 		"type": "ITEM",
-		"data": 4005,
-		"texture": "ender_lump3"
+		"data": 4005
+	},
+	"BEEF_JERKY": {
+		"id": "beef_jerky",
+		"item": "cooked_beef",
+		"type": "ITEM",
+		"data": 4000
+	},
+	"CHICKEN_JERKY": {
+		"id": "chicken_jerky",
+		"item": "cooked_chicken",
+		"type": "ITEM",
+		"data": 4000
+	},
+	"PORK_JERKY": {
+		"id": "pork_jerky",
+		"item": "cooked_porkchop",
+		"type": "ITEM",
+		"data": 4000
+	},
+	"MUTTON_JERKY": {
+		"id": "mutton_jerky",
+		"item": "cooked_mutton",
+		"type": "ITEM",
+		"data": 4000
+	},
+	"RABBIT_JERKY": {
+		"id": "rabbit_jerky",
+		"item": "cooked_rabbit",
+		"type": "ITEM",
+		"data": 4000
+	},
+	"FISH_JERKY": {
+		"id": "fish_jerky",
+		"item": "cooked_cod",
+		"type": "ITEM",
+		"data": 4000
+	},
+	"MONSTER_JERKY": {
+		"id": "monster_jerky",
+		"item": "rotten_flesh",
+		"type": "ITEM",
+		"data": 4000
 	}
 }

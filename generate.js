@@ -18,11 +18,12 @@ Promise.all([
             else minecraft[cfg.item].push(slimefunItem);
 
             console.log("Generating 'model.json'...");
+			let texture = cfg.texture ? cfg.texture: cfg.id;
 
             fs.writeFile(`assets/minecraft/models/slimefun/${cfg.id}.json`, JSON.stringify({
                 parent: "item/generated",
                 textures: {
-                    "layer0": "slimefun/" + cfg.texture
+                    "layer0": "slimefun/" + texture
                 }
             }), "UTF-8");
         }
