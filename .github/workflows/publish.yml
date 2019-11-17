@@ -15,18 +15,18 @@ jobs:
         with:
           node-version: '10.x'
       - name: Generating Resourcepack
-        run: sh compile.sh
+        run: node generate.js
       - name: Zipping Resources
         uses: montudor/action-zip@v0.1.0
         with:
-          args: zip -r -j ./resourcepack.zip ./pack
+          args: zip -r -j ./resourcepack.zip ./assets ./pack.mcmeta ./LICENSE
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: Latest Release
+          tag_name: latest
           release_name: Latest Release
           draft: false
           prerelease: true

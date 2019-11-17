@@ -1,8 +1,8 @@
 const fs = require('fs').promises;
 
 Promise.all([
-    fs.mkdir("pack/assets/minecraft/models/item", {recursive:true}),
-    fs.mkdir("pack/assets/minecraft/models/slimefun", {recursive:true})
+    fs.mkdir("assets/minecraft/models/item", {recursive:true}),
+    fs.mkdir("assets/minecraft/models/slimefun", {recursive:true})
 ]).then(() => fs.readFile("models.json", "UTF-8").then(models => {
     let json = JSON.parse(models);
     let yml = "";
@@ -19,7 +19,7 @@ Promise.all([
 
             console.log("Generating 'model.json'...");
 
-            fs.writeFile(`pack/assets/minecraft/models/slimefun/${cfg.id}.json`, JSON.stringify({
+            fs.writeFile(`assets/minecraft/models/slimefun/${cfg.id}.json`, JSON.stringify({
                 parent: "item/generated",
                 textures: {
                     "layer0": "slimefun/" + cfg.texture
@@ -48,7 +48,7 @@ Promise.all([
         overrides.sort((a, b) => a.predicate.custom_model_data - b.predicate.custom_model_data);
 
         if (type == "ITEM") {
-            fs.writeFile(`pack/assets/minecraft/models/item/${item}.json`, JSON.stringify({
+            fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
                 parent: "item/generated",
                 textures: {
                     "layer0": "item/" + item
