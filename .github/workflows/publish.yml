@@ -32,8 +32,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ create_version.new_tag }}
-          release_name: ${{ create_version.new_tag }}
+          tag_name: ${{ steps.create_version.outputs.new_tag }}
+          release_name: ${{ steps.create_version.outputs.new_tag }}
           draft: false
           prerelease: true
       - name: Upload Resourcepack.zip
