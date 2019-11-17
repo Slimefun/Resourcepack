@@ -30,7 +30,7 @@
 		"data": 4003
 	},
 	"ENDER_LUMP_2": {
-		"id": "magical_lump2",
+		"id": "ender_lump2",
 		"item": "gold_nugget",
 		"type": "ITEM",
 		"data": 4004
@@ -80,6 +80,90 @@
 	"MONSTER_JERKY": {
 		"id": "monster_jerky",
 		"item": "rotten_flesh",
+		"type": "ITEM",
+		"data": 4000
+	},
+	"SALT": {
+		"id": "salt",
+		"item": "sugar",
+		"type": "ITEM",
+		"data": 4000
+	},
+	"DIET_COOKIE": {
+		"id": "diet_cookie",
+		"item": "cookie",
+		"type": "ITEM",
+		"data": 4000
+	},
+	"FORTUNE_COOKIE": {
+		"id": "fortune_cookie",
+		"item": "cookie",
+		"type": "ITEM",
+		"data": 4001
+	},
+	"MAGICAL_BOOK_COVER": {
+		"id": "magical_book_cover",
+		"item": "paper",
+		"type": "ITEM",
+		"data": 4000
+	},
+	"GOLD_PAN": {
+		"id": "gold_pan",
+		"item": "bowl",
+		"type": "ITEM",
+		"data": 4000
+	},
+	"ZINC_INGOT": {
+		"id": "zinc_ingot",
+		"item": "iron_ingot",
+		"type": "ITEM",
+		"data": 4000
+	},
+	"SILVER_INGOT": {
+		"id": "silver_ingot",
+		"item": "iron_ingot",
+		"type": "ITEM",
+		"data": 4001
+	},
+	"ALUMINUM_INGOT": {
+		"id": "aluminum_ingot",
+		"item": "iron_ingot",
+		"type": "ITEM",
+		"data": 4002
+	},
+	"LEAD_INGOT": {
+		"id": "lead_ingot",
+		"item": "iron_ingot",
+		"type": "ITEM",
+		"data": 4003
+	},
+	"TIN_INGOT": {
+		"id": "tin_ingot",
+		"item": "iron_ingot",
+		"type": "ITEM",
+		"data": 4004
+	},
+	"COPPER_INGOT": {
+		"id": "copper_ingot",
+		"item": "brick",
+		"type": "ITEM",
+		"data": 4000
+	},
+	"NICKEL_INGOT": {
+		"id": "nickel_ingot",
+		"item": "iron_ingot",
+		"type": "ITEM",
+		"data": 4005
+	},
+	"COBALT_INGOT": {
+		"id": "cobalt_ingot",
+		"item": "iron_ingot",
+		"type": "ITEM",
+		"data": 4006
+	},
+	"COPPER_WIRE": {
+		"id": "copper_wire",
+		"item": "string",
 		"type": "ITEM",
 		"data": 4000
 	}
