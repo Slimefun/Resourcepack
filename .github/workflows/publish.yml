@@ -19,7 +19,7 @@ jobs:
       - name: Zipping Resources
         uses: montudor/action-zip@v0.1.0
         with:
-          args: zip -r -j ./resourcepack.zip ./assets ./pack.mcmeta ./LICENSE
+          args: zip -r ./resourcepack.zip ./assets ./pack.mcmeta ./LICENSE
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1.0.0
