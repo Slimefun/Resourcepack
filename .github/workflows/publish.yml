@@ -21,7 +21,7 @@ jobs:
         with:
           args: zip -r ./resourcepack.zip ./assets ./pack.mcmeta ./LICENSE
       - name: Creating new semantic version
-        id: versioning
+        id: create_version
         uses: anothrNick/github-tag-action@1.8.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -32,8 +32,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ versioning.new_tag }}
-          release_name: ${{ versioning.new_tag }}
+          tag_name: ${{ create_version.new_tag }}
+          release_name: ${{ create_version.new_tag }}
           draft: false
           prerelease: true
       - name: Upload Resourcepack.zip
