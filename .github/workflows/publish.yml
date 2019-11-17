@@ -20,14 +20,20 @@ jobs:
         uses: montudor/action-zip@v0.1.0
         with:
           args: zip -r ./resourcepack.zip ./assets ./pack.mcmeta ./LICENSE
+      - name: Creating new semantic version
+        id: versioning
+        uses: anothrNick/github-tag-action@1.8.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WITH_V: true
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: latest
-          release_name: Latest Release
+          tag_name: ${{ versioning.new_tag }}
+          release_name: ${{ versioning.new_tag }}
           draft: false
           prerelease: true
       - name: Upload Resourcepack.zip
