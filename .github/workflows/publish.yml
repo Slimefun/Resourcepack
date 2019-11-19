@@ -24,13 +24,13 @@ jobs:
         id: create_version
         uses: anothrNick/github-tag-action@1.8.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           WITH_V: true
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1.0.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
           tag_name: ${{ steps.create_version.outputs.new_tag }}
           release_name: ${{ steps.create_version.outputs.new_tag }}
@@ -39,7 +39,7 @@ jobs:
       - name: Upload Resourcepack.zip
         uses: actions/upload-release-asset@v1.0.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
           asset_path: ./resourcepack.zip
@@ -48,7 +48,7 @@ jobs:
       - name: Upload item-models.yml
         uses: actions/upload-release-asset@v1.0.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
           asset_path: ./item-models.yml
