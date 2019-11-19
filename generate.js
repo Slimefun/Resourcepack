@@ -18,9 +18,10 @@ Promise.all([
             else minecraft[cfg.item].push(slimefunItem);
 
             console.log("Generating 'model.json'...");
-			let texture = cfg.texture ? cfg.texture: cfg.id;
+			let id = cfg.id ? cfg.id: slimefunItem.toLowerCase();
+			let texture = cfg.texture ? cfg.texture: id;
 
-            fs.writeFile(`assets/minecraft/models/slimefun/${cfg.id}.json`, JSON.stringify({
+            fs.writeFile(`assets/minecraft/models/slimefun/${id}.json`, JSON.stringify({
                 parent: "item/generated",
                 textures: {
                     "layer0": "slimefun/" + texture
@@ -36,13 +37,14 @@ Promise.all([
 
         for (let i in minecraft[item]) {
             let slimefunItem = json[minecraft[item][i]];
+			let id = slimefunItem.id ? slimefunItem.id: minecraft[item][i].toLowerCase();
             type = slimefunItem.type;
 
             overrides.push({
                 predicate: {
                     custom_model_data: slimefunItem.data
                 },
-                "model": "slimefun/" + slimefunItem.id
+                "model": "slimefun/" + id
             });
         }
 

@@ -43,7 +43,7 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} 
           asset_path: ./resourcepack.zip
-          asset_name: Slimefun Resourcepack.zip
+          asset_name: Slimefun4-Resourcepack-${{ steps.create_version.outputs.new_tag }}.zip
           asset_content_type: application/zip
       - name: Upload item-models.yml
         uses: actions/upload-release-asset@v1.0.1

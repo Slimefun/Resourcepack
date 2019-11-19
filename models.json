@@ -1,6 +1,5 @@
 {
 	"MAGIC_SUGAR": {
-		"id": "magic_sugar",
 		"item": "sugar",
 		"type": "ITEM",
 		"data": 4000
@@ -42,129 +41,145 @@
 		"data": 4005
 	},
 	"BEEF_JERKY": {
-		"id": "beef_jerky",
 		"item": "cooked_beef",
 		"type": "ITEM",
 		"data": 4000
 	},
 	"CHICKEN_JERKY": {
-		"id": "chicken_jerky",
 		"item": "cooked_chicken",
 		"type": "ITEM",
 		"data": 4000
 	},
 	"PORK_JERKY": {
-		"id": "pork_jerky",
 		"item": "cooked_porkchop",
 		"type": "ITEM",
 		"data": 4000
 	},
 	"MUTTON_JERKY": {
-		"id": "mutton_jerky",
 		"item": "cooked_mutton",
 		"type": "ITEM",
 		"data": 4000
 	},
 	"RABBIT_JERKY": {
-		"id": "rabbit_jerky",
 		"item": "cooked_rabbit",
 		"type": "ITEM",
 		"data": 4000
 	},
 	"FISH_JERKY": {
-		"id": "fish_jerky",
 		"item": "cooked_cod",
 		"type": "ITEM",
 		"data": 4000
 	},
 	"MONSTER_JERKY": {
-		"id": "monster_jerky",
 		"item": "rotten_flesh",
 		"type": "ITEM",
 		"data": 4000
 	},
 	"SALT": {
-		"id": "salt",
 		"item": "sugar",
 		"type": "ITEM",
 		"data": 4000
 	},
 	"DIET_COOKIE": {
-		"id": "diet_cookie",
 		"item": "cookie",
 		"type": "ITEM",
 		"data": 4000
 	},
 	"FORTUNE_COOKIE": {
-		"id": "fortune_cookie",
 		"item": "cookie",
 		"type": "ITEM",
 		"data": 4001
 	},
 	"MAGICAL_BOOK_COVER": {
-		"id": "magical_book_cover",
 		"item": "paper",
 		"type": "ITEM",
 		"data": 4000
 	},
 	"GOLD_PAN": {
-		"id": "gold_pan",
 		"item": "bowl",
 		"type": "ITEM",
 		"data": 4000
 	},
 	"ZINC_INGOT": {
-		"id": "zinc_ingot",
 		"item": "iron_ingot",
 		"type": "ITEM",
 		"data": 4000
 	},
 	"SILVER_INGOT": {
-		"id": "silver_ingot",
 		"item": "iron_ingot",
 		"type": "ITEM",
 		"data": 4001
 	},
 	"ALUMINUM_INGOT": {
-		"id": "aluminum_ingot",
 		"item": "iron_ingot",
 		"type": "ITEM",
 		"data": 4002
 	},
 	"LEAD_INGOT": {
-		"id": "lead_ingot",
 		"item": "iron_ingot",
 		"type": "ITEM",
 		"data": 4003
 	},
 	"TIN_INGOT": {
-		"id": "tin_ingot",
 		"item": "iron_ingot",
 		"type": "ITEM",
 		"data": 4004
 	},
 	"COPPER_INGOT": {
-		"id": "copper_ingot",
 		"item": "brick",
 		"type": "ITEM",
 		"data": 4000
 	},
 	"NICKEL_INGOT": {
-		"id": "nickel_ingot",
 		"item": "iron_ingot",
 		"type": "ITEM",
 		"data": 4005
 	},
 	"COBALT_INGOT": {
-		"id": "cobalt_ingot",
 		"item": "iron_ingot",
 		"type": "ITEM",
 		"data": 4006
 	},
 	"COPPER_WIRE": {
-		"id": "copper_wire",
 		"item": "string",
 		"type": "ITEM",
 		"data": 4000
+	},
+	"REDSTONE_ALLOY": {
+		"id": "redstone_alloy_ingot",
+		"item": "brick",
+		"type": "ITEM",
+		"data": 4001
+	},
+	"FERROSILICON": {
+		"item": "iron_ingot",
+		"type": "ITEM",
+		"data": 4007
+	},
+	"GILDED_IRON": {
+		"id": "gilded_iron_ingot",
+		"item": "gold_ingot",
+		"type": "ITEM",
+		"data": 4000
+	},
+	"SULFATE": {
+		"item": "glowstone_dust",
+		"type": "ITEM",
+		"data": 4000
+	},
+	"MAGNESIUM_INGOT": {
+		"item": "iron_ingot",
+		"type": "ITEM",
+		"data": 4008
+	},
+	"SIFTED_ORE": {
+		"item": "gunpowder",
+		"type": "ITEM",
+		"data": 4000
+	},
+	"CLOTH": {
+		"item": "paper",
+		"type": "ITEM",
+		"data": 4001
 	}
 }
