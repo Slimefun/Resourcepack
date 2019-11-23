@@ -21,6 +21,12 @@ const templates = {
             },
             overrides: overrides
         }), "UTF-8");
+	},
+	SKULL: (item, overrides) => {
+		fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
+            parent: "template/skull",
+            overrides: overrides
+        }), "UTF-8");
 	}
 }
 
