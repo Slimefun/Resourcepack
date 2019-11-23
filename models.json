@@ -285,7 +285,7 @@
 	"MAGNESIUM_DUST": {
 		"item": "sugar",
 		"template": "ITEM",
-		"data": 4005
+		"data": 4006
 	},
 	"BUCKET_OF_OIL": {
 		"item": "player_head",
