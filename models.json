@@ -295,7 +295,7 @@
 	"BUCKET_OF_FUEL": {
 		"item": "player_head",
 		"template": "SKULL",
-		"data": 4008
+		"data": 4009
 	},
 	"CRUSHED_ORE": {
 		"item": "gunpowder",
