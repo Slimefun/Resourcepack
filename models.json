@@ -260,7 +260,7 @@
 	"COPPER_DUST": {
 		"item": "glowstone_dust",
 		"template": "ITEM",
-		"data": 4001
+		"data": 4002
 	},
 	"TIN_DUST": {
 		"item": "sugar",
