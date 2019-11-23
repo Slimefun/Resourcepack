@@ -1,185 +1,205 @@
 {
 	"MAGIC_SUGAR": {
 		"item": "sugar",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"MAGIC_LUMP_1": {
 		"id": "magical_lump1",
 		"item": "gold_nugget",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"MAGIC_LUMP_2": {
 		"id": "magical_lump2",
 		"item": "gold_nugget",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4001
 	},
 	"MAGIC_LUMP_3": {
 		"id": "magical_lump3",
 		"item": "gold_nugget",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4002
 	},
 	"ENDER_LUMP_1": {
 		"id": "ender_lump1",
 		"item": "gold_nugget",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4003
 	},
 	"ENDER_LUMP_2": {
 		"id": "ender_lump2",
 		"item": "gold_nugget",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4004
 	},
 	"ENDER_LUMP_3": {
 		"id": "ender_lump3",
 		"item": "gold_nugget",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4005
 	},
 	"BEEF_JERKY": {
 		"item": "cooked_beef",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"CHICKEN_JERKY": {
 		"item": "cooked_chicken",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"PORK_JERKY": {
 		"item": "cooked_porkchop",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"MUTTON_JERKY": {
 		"item": "cooked_mutton",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"RABBIT_JERKY": {
 		"item": "cooked_rabbit",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"FISH_JERKY": {
 		"item": "cooked_cod",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"MONSTER_JERKY": {
 		"item": "rotten_flesh",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"SALT": {
 		"item": "sugar",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"DIET_COOKIE": {
 		"item": "cookie",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"FORTUNE_COOKIE": {
 		"item": "cookie",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4001
 	},
 	"MAGICAL_BOOK_COVER": {
 		"item": "paper",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"GOLD_PAN": {
 		"item": "bowl",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"ZINC_INGOT": {
 		"item": "iron_ingot",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"SILVER_INGOT": {
 		"item": "iron_ingot",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4001
 	},
 	"ALUMINUM_INGOT": {
 		"item": "iron_ingot",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4002
 	},
 	"LEAD_INGOT": {
 		"item": "iron_ingot",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4003
 	},
 	"TIN_INGOT": {
 		"item": "iron_ingot",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4004
 	},
 	"COPPER_INGOT": {
 		"item": "brick",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"NICKEL_INGOT": {
 		"item": "iron_ingot",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4005
 	},
 	"COBALT_INGOT": {
 		"item": "iron_ingot",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4006
 	},
 	"COPPER_WIRE": {
 		"item": "string",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"REDSTONE_ALLOY": {
 		"id": "redstone_alloy_ingot",
 		"item": "brick",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4001
 	},
 	"FERROSILICON": {
 		"item": "iron_ingot",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4007
 	},
 	"GILDED_IRON": {
 		"id": "gilded_iron_ingot",
 		"item": "gold_ingot",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"SULFATE": {
 		"item": "glowstone_dust",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"MAGNESIUM_INGOT": {
 		"item": "iron_ingot",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4008
 	},
 	"SIFTED_ORE": {
 		"item": "gunpowder",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"CLOTH": {
 		"item": "paper",
-		"type": "ITEM",
+		"template": "ITEM",
 		"data": 4001
+	},
+	"GRANDMAS_WALKING_STICK": {
+		"item": "stick",
+		"template": "ITEM",
+		"data": 4000
+	},
+	"GRANDPAS_WALKING_STICK": {
+		"item": "stick",
+		"template": "ITEM",
+		"data": 4001
+	},
+	"ESSENCE_OF_AFTERLIFE": {
+		"item": "gunpowder",
+		"template": "ITEM",
+		"data": 4001
+	},
+	"SILICON": {
+		"item": "firework_star",
+		"template": "FIREWORK_STAR",
+		"data": 4000
 	}
 }
