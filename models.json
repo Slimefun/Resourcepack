@@ -331,5 +331,50 @@
 		"item": "string",
 		"template": "ITEM",
 		"data": 4001
+	},
+	"BLANK_RUNE": {
+		"item": "firework_star",
+		"template": "FIREWORK_STAR",
+		"data": 4001
+	},
+	"ANCIENT_RUNE_WATER": {
+		"item": "firework_star",
+		"template": "FIREWORK_STAR",
+		"data": 4002
+	},
+	"ANCIENT_RUNE_FIRE": {
+		"item": "firework_star",
+		"template": "FIREWORK_STAR",
+		"data": 4003
+	},
+	"ANCIENT_RUNE_AIR": {
+		"item": "firework_star",
+		"template": "FIREWORK_STAR",
+		"data": 4004
+	},
+	"ANCIENT_RUNE_EARTH": {
+		"item": "firework_star",
+		"template": "FIREWORK_STAR",
+		"data": 4005
+	},
+	"ANCIENT_RUNE_ENDER": {
+		"item": "firework_star",
+		"template": "FIREWORK_STAR",
+		"data": 4006
+	},
+	"ANCIENT_RUNE_LIGHTNING": {
+		"item": "firework_star",
+		"template": "FIREWORK_STAR",
+		"data": 4007
+	},
+	"ANCIENT_RUNE_RAINBOW": {
+		"item": "firework_star",
+		"template": "FIREWORK_STAR",
+		"data": 4008
+	},
+	"ANCIENT_RUNE_SOULBOUND": {
+		"item": "firework_star",
+		"template": "FIREWORK_STAR",
+		"data": 4009
 	}
 }
