@@ -78,7 +78,7 @@
 	"SALT": {
 		"item": "sugar",
 		"template": "ITEM",
-		"data": 4000
+		"data": 4001
 	},
 	"DIET_COOKIE": {
 		"item": "cookie",
@@ -226,5 +226,110 @@
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4004
+	},
+	"CARBON": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4005
+	},
+	"COMPRESSED_CARBON": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4006
+	},
+	"CARBON_CHUNK": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4007
+	},
+	"IRON_DUST": {
+		"item": "gunpowder",
+		"template": "ITEM",
+		"data": 4002
+	},
+	"LEAD_DUST": {
+		"item": "gunpowder",
+		"template": "ITEM",
+		"data": 4003
+	},
+	"GOLD_DUST": {
+		"item": "glowstone_dust",
+		"template": "ITEM",
+		"data": 4001
+	},
+	"COPPER_DUST": {
+		"item": "glowstone_dust",
+		"template": "ITEM",
+		"data": 4001
+	},
+	"TIN_DUST": {
+		"item": "sugar",
+		"template": "ITEM",
+		"data": 4002
+	},
+	"SILVER_DUST": {
+		"item": "sugar",
+		"template": "ITEM",
+		"data": 4003
+	},
+	"ALUMINUM_DUST": {
+		"item": "sugar",
+		"template": "ITEM",
+		"data": 4004
+	},
+	"ZINC_DUST": {
+		"item": "sugar",
+		"template": "ITEM",
+		"data": 4005
+	},
+	"MAGNESIUM_DUST": {
+		"item": "sugar",
+		"template": "ITEM",
+		"data": 4005
+	},
+	"BUCKET_OF_OIL": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4008
+	},
+	"BUCKET_OF_FUEL": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4008
+	},
+	"CRUSHED_ORE": {
+		"item": "gunpowder",
+		"template": "ITEM",
+		"data": 4004
+	},
+	"PULVERIZED_ORE": {
+		"item": "gunpowder",
+		"template": "ITEM",
+		"data": 4005
+	},
+	"PURE_ORE_CLUSTER": {
+		"item": "gunpowder",
+		"template": "ITEM",
+		"data": 4006
+	},
+	"STEEL_INGOT": {
+		"item": "iron_ingot",
+		"template": "ITEM",
+		"data": 4008
+	},
+	"STEEL_PLATE": {
+		"item": "paper",
+		"template": "ITEM",
+		"data": 4002
+	},
+	"PLASTIC_SHEET": {
+		"item": "paper",
+		"template": "ITEM",
+		"data": 4003
+	},
+	"CHAIN": {
+		"item": "string",
+		"template": "ITEM",
+		"data": 4001
 	}
 }
