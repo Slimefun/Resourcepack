@@ -376,5 +376,35 @@
 		"item": "firework_star",
 		"template": "FIREWORK_STAR",
 		"data": 4009
+	},
+	"SLIMEFUN_GUIDE": {
+		"item": "enchanted_book",
+		"template": "ITEM",
+		"data": 4000
+	},
+	"SOLAR_PANEL": {
+		"item": "daylight_detector",
+		"template": "BLOCK",
+		"data": 4000
+	},
+	"SOLAR_HELMET": {
+		"item": "iron_helmet",
+		"template": "ITEM",
+		"data": 4000
+	},
+	"STEEL_THRUSTER": {
+		"item": "bucket",
+		"template": "ITEM",
+		"data": 4000
+	},
+	"INFUSED_ELYTRA": {
+		"item": "elytra",
+		"template": "ITEM",
+		"data": 4000
+	},
+	"SOULBOUND_ELYTRA": {
+		"item": "elytra",
+		"template": "ITEM",
+		"data": 4001
 	}
 }
