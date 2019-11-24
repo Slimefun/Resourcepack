@@ -315,7 +315,7 @@
 	"STEEL_INGOT": {
 		"item": "iron_ingot",
 		"template": "ITEM",
-		"data": 4008
+		"data": 4009
 	},
 	"STEEL_PLATE": {
 		"item": "paper",
@@ -406,5 +406,60 @@
 		"item": "elytra",
 		"template": "ITEM",
 		"data": 4001
+	},
+	"DAMASCUS_STEEL_INGOT": {
+		"item": "iron_ingot",
+		"template": "ITEM",
+		"data": 4010
+	},
+	"HARDENED_METAL_INGOT": {
+		"item": "iron_ingot",
+		"template": "ITEM",
+		"data": 4011
+	},
+	"BRONZE_INGOT": {
+		"item": "brick",
+		"template": "ITEM",
+		"data": 4002
+	},
+	"BRASS_INGOT": {
+		"item": "gold_ingot",
+		"template": "ITEM",
+		"data": 4001
+	},
+	"TINY_URANIUM": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4010
+	},
+	"SMALL_URANIUM": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4011
+	},
+	"URANIUM": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4012
+	},
+	"NEPTUNIUM": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4013
+	},
+	"PLUTONIUM": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4014
+	},
+	"BOOSTED_URANIUM": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4015
+	},
+	"ELYTRA_SCALE": {
+		"item": "feather",
+		"template": "ITEM",
+		"data": 4000
 	}
 }
