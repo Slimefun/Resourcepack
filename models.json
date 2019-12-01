@@ -602,5 +602,15 @@
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4033
+	},
+	"POWER_CRYSTAL": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4034
+	},
+	"STONE_CHUNK": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4035
 	}
 }
