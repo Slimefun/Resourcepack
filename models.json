@@ -486,5 +486,121 @@
 		"item": "bowl",
 		"template": "ITEM",
 		"data": 4001
+	},
+	"BLADE_OF_VAMPIRES": {
+		"item": "golden_sword",
+		"template": "ITEM",
+		"data": 4000
+	},
+	"SWORD_OF_BEHEADING": {
+		"item": "iron_sword",
+		"template": "ITEM",
+		"data": 4000
+	},
+	"SMELTERS_PICKAXE": {
+		"item": "diamond_pickaxe",
+		"template": "ITEM",
+		"data": 4000
+	},
+	"HERCULES_PICKAXE": {
+		"item": "iron_pickaxe",
+		"template": "ITEM",
+		"data": 4000
+	},
+	"ORGANIC_FOOD_WHEAT": {
+		"id": "can_wheat",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4018
+	},
+	"FERTILIZER_WHEAT": {
+		"id": "can_wheat",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4019
+	},
+	"ORGANIC_FOOD_APPLE": {
+		"id": "can_apple",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4020
+	},
+	"FERTILIZER_APPLE": {
+		"id": "can_apple",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4021
+	},
+	"ORGANIC_FOOD_CARROT": {
+		"id": "can_carrots",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4022
+	},
+	"FERTILIZER_CARROT": {
+		"id": "can_carrots",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4023
+	},
+	"ORGANIC_FOOD_POTATO": {
+		"id": "can_potatoes",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4024
+	},
+	"FERTILIZER_POTATO": {
+		"id": "can_potatoes",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4025
+	},
+	"ORGANIC_FOOD_SEEDS": {
+		"id": "can_seeds",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4026
+	},
+	"FERTILIZER_SEEDS": {
+		"id": "can_seeds",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4027
+	},
+	"ORGANIC_FOOD_BEETROOT": {
+		"id": "can_beetroot",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4028
+	},
+	"FERTILIZER_BEETROOT": {
+		"id": "can_beetroot",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4029
+	},
+	"ORGANIC_FOOD_MELON": {
+		"id": "can_melon",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4030
+	},
+	"FERTILIZER_MELON": {
+		"id": "can_melon",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4031
+	},
+	"ORGANIC_FOOD_SWEET_BERRIES": {
+		"id": "can_berries",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4032
+	},
+	"FERTILIZER_SWEET_BERRIES": {
+		"id": "can_berries",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4033
 	}
 }
