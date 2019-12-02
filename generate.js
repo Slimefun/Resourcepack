@@ -33,6 +33,25 @@ const templates = {
             parent: "block/" + item,
             overrides: overrides
         }), "UTF-8");
+	},
+	HANDHELD: (item, overrides) => {
+		fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
+            parent: "item/handheld",
+            textures: {
+                "layer0": "item/" + item
+            },
+            overrides: overrides
+        }), "UTF-8");
+	},
+	LEATHER_ARMOR: (item, overrides) => {
+		fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
+            parent: "item/generated",
+            textures: {
+                "layer0": "item/" + item,
+				"layer1": "item/" + item + "_overlay"
+            },
+            overrides: overrides
+        }), "UTF-8");
 	}
 }
 

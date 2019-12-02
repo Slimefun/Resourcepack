@@ -489,22 +489,22 @@
 	},
 	"BLADE_OF_VAMPIRES": {
 		"item": "golden_sword",
-		"template": "ITEM",
+		"template": "HANDHELD",
 		"data": 4000
 	},
 	"SWORD_OF_BEHEADING": {
 		"item": "iron_sword",
-		"template": "ITEM",
+		"template": "HANDHELD",
 		"data": 4000
 	},
 	"SMELTERS_PICKAXE": {
 		"item": "diamond_pickaxe",
-		"template": "ITEM",
+		"template": "HANDHELD",
 		"data": 4000
 	},
 	"HERCULES_PICKAXE": {
 		"item": "iron_pickaxe",
-		"template": "ITEM",
+		"template": "HANDHELD",
 		"data": 4000
 	},
 	"ORGANIC_FOOD_WHEAT": {
