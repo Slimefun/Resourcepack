@@ -612,5 +612,55 @@
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4035
+	},
+	"DAMASCUS_STEEL_HELMET": {
+		"item": "iron_helmet",
+		"template": "ITEM",
+		"data": 4001
+	},
+	"DAMASCUS_STEEL_CHESTPLATE": {
+		"item": "iron_chestplate",
+		"template": "ITEM",
+		"data": 4000
+	},
+	"DAMASCUS_STEEL_LEGGINGS": {
+		"item": "iron_leggings",
+		"template": "ITEM",
+		"data": 4000
+	},
+	"DAMASCUS_STEEL_BOOTS": {
+		"item": "iron_boots",
+		"template": "ITEM",
+		"data": 4000
+	},
+	"INFERNAL_BONEMEAL": {
+		"item": "bone_meal",
+		"template": "ITEM",
+		"data": 4000
+	},
+	"LAVA_CRYSTAL": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4036
+	},
+	"PICKAXE_OF_CONTAINMENT": {
+		"item": "iron_pickaxe",
+		"template": "HANDHELD",
+		"data": 4001
+	},
+	"COMMON_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4000
+	},
+	"ANVIL_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4001
+	},
+	"MINER_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4002
 	}
 }
