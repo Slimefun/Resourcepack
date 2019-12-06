@@ -653,14 +653,39 @@
 		"template": "ITEM",
 		"data": 4000
 	},
-	"ANVIL_TALISMAN": {
+	"ENDER_TALISMAN": {
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4001
 	},
-	"MINER_TALISMAN": {
+	"ANVIL_TALISMAN": {
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4002
+	},
+	"MINER_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4003
+	},
+	"HUNTER_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4004
+	},
+	"LAVA_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4005
+	},
+	"WATER_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4006
+	},
+	"ANGEL_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4007
 	}
 }
