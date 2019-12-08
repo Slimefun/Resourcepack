@@ -687,5 +687,45 @@
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4007
+	},
+	"DURALUMIN_INGOT": {
+		"item": "iron_ingot",
+		"template": "ITEM",
+		"data": 4012
+	},
+	"BILLON_INGOT": {
+		"item": "iron_ingot",
+		"template": "ITEM",
+		"data": 4012
+	},
+	"ALUMINUM_BRASS_INGOT": {
+		"item": "gold_ingot",
+		"template": "ITEM",
+		"data": 4002
+	},
+	"REINFORCED_ALLOY_INGOT": {
+		"item": "iron_ingot",
+		"template": "ITEM",
+		"data": 4013
+	},
+	"TRAVELLER_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4008
+	},
+	"WARRIOR_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4009
+	},
+	"FIRE_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4010
+	},
+	"MULTIMETER": {
+		"item": "clock",
+		"template": "ITEM",
+		"data": 4000
 	}
 }
