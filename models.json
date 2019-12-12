@@ -696,7 +696,7 @@
 	"BILLON_INGOT": {
 		"item": "iron_ingot",
 		"template": "ITEM",
-		"data": 4012
+		"data": 4013
 	},
 	"ALUMINUM_BRASS_INGOT": {
 		"item": "gold_ingot",
@@ -706,7 +706,7 @@
 	"REINFORCED_ALLOY_INGOT": {
 		"item": "iron_ingot",
 		"template": "ITEM",
-		"data": 4013
+		"data": 4014
 	},
 	"TRAVELLER_TALISMAN": {
 		"item": "emerald",
@@ -725,7 +725,7 @@
 	},
 	"MULTIMETER": {
 		"item": "clock",
-		"template": "ITEM",
+		"template": "CLOCK",
 		"data": 4000
 	}
 }
