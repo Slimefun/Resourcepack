@@ -14,18 +14,20 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '10.x'
-      - name: Generating Resourcepack
-        run: node generate.js
-      - name: Zipping Resources
-        uses: montudor/action-zip@v0.1.0
-        with:
-          args: zip -r ./resourcepack.zip ./assets ./pack.mcmeta ./LICENSE
       - name: Creating new semantic version
         id: create_version
         uses: anothrNick/github-tag-action@1.8.0
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           WITH_V: true
+      - name: Generating Resourcepack
+        run: node generate.js
+        env:
+          GITHUB_RELEASE_VERSION: ${{ steps.create_version.outputs.new_tag }}
+      - name: Zipping Resources
+        uses: montudor/action-zip@v0.1.0
+        with:
+          args: zip -r ./resourcepack.zip ./assets ./pack.mcmeta ./LICENSE
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1.0.0

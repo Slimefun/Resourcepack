@@ -2,65 +2,14 @@
 const fs = require('fs').promises;
 
 // Templates for json handlers
-const templates = {
-    ITEM: (item, overrides) => {
-        fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
-            parent: "item/generated",
-            textures: {
-                "layer0": "item/" + item
-            },
-            overrides: overrides
-        }), "UTF-8");
-    },
-	FIREWORK_STAR: (item, overrides) => {
-		fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
-            parent: "item/generated",
-            textures: {
-                "layer0": "item/firework_star",
-				"layer1": "item/firework_star_overlay"
-            },
-            overrides: overrides
-        }), "UTF-8");
-	},
-	SKULL: (item, overrides) => {
-		fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
-            parent: "item/template_skull",
-            overrides: overrides
-        }), "UTF-8");
-	},
-	BLOCK: (item, overrides) => {
-		fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
-            parent: "block/" + item,
-            overrides: overrides
-        }), "UTF-8");
-	},
-	HANDHELD: (item, overrides) => {
-		fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
-            parent: "item/handheld",
-            textures: {
-                "layer0": "item/" + item
-            },
-            overrides: overrides
-        }), "UTF-8");
-	},
-	LEATHER_ARMOR: (item, overrides) => {
-		fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
-            parent: "item/generated",
-            textures: {
-                "layer0": "item/" + item,
-				"layer1": "item/" + item + "_overlay"
-            },
-            overrides: overrides
-        }), "UTF-8");
-	}
-}
+const templates = require('./templates.js');
 
 Promise.all([
     fs.mkdir("assets/minecraft/models/item", {recursive:true}),
     fs.mkdir("assets/minecraft/models/slimefun", {recursive:true})
 ]).then(() => fs.readFile("models.json", "UTF-8").then(models => {
     let json = JSON.parse(models);
-    let yml = "";
+    let yml = `version: ${process.env.GITHUB_RELEASE_VERSION}\n`;
     let minecraft = {};
 
     for (let slimefunItem in json) {
