@@ -1,3 +1,5 @@
+const fs = require('fs').promises;
+
 module.exports = {
     ITEM: (item, overrides) => {
         fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
