@@ -748,22 +748,22 @@
 		"template": "BLOCK",
 		"data": 4001
 	},
-	"DAMASCUS_STEEL_HELMET": {
+	"REINFORCED_ALLOY_HELMET": {
 		"item": "iron_helmet",
 		"template": "ITEM",
 		"data": 4002
 	},
-	"DAMASCUS_STEEL_CHESTPLATE": {
+	"REINFORCED_ALLOY_CHESTPLATE": {
 		"item": "iron_chestplate",
 		"template": "ITEM",
 		"data": 4001
 	},
-	"DAMASCUS_STEEL_LEGGINGS": {
+	"REINFORCED_ALLOY_LEGGINGS": {
 		"item": "iron_leggings",
 		"template": "ITEM",
 		"data": 4001
 	},
-	"DAMASCUS_STEEL_BOOTS": {
+	"REINFORCED_ALLOY_BOOTS": {
 		"item": "iron_boots",
 		"template": "ITEM",
 		"data": 4001
