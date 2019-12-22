@@ -771,7 +771,7 @@
 	
 	"_UI_BACKGROUND": {
 		"item": "gray_stained_glass_pane",
-		"template": "BLOCK_ITEM",
+		"template": "GLASS_PANE",
 		"data": 4000
 	},
 	"_UI_BACK": {
@@ -791,22 +791,22 @@
 	},
 	"_UI_PREVIOUS_ACTIVE": {
 		"item": "lime_stained_glass_pane",
-		"template": "BLOCK_ITEM",
+		"template": "GLASS_PANE",
 		"data": 4000
 	},
 	"_UI_NEXT_ACTIVE": {
 		"item": "lime_stained_glass_pane",
-		"template": "BLOCK_ITEM",
+		"template": "GLASS_PANE",
 		"data": 4001
 	},
 	"_UI_PREVIOUS_INACTIVE": {
 		"item": "black_stained_glass_pane",
-		"template": "BLOCK_ITEM",
+		"template": "GLASS_PANE",
 		"data": 4000
 	},
 	"_UI_NEXT_INACTIVE": {
 		"item": "black_stained_glass_pane",
-		"template": "BLOCK_ITEM",
+		"template": "GLASS_PANE",
 		"data": 4001
 	}
 }

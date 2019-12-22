@@ -10,11 +10,11 @@ module.exports = {
             overrides: overrides
         }), "UTF-8");
     },
-	BLOCK_ITEM: (item, overrides) => {
+	GLASS_PANE: (item, overrides) => {
         fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
             parent: "item/generated",
             textures: {
-                "layer0": "block/" + item
+                "layer0": "block/" + item.substring(0, item.length - 5)
             },
             overrides: overrides
         }), "UTF-8");
