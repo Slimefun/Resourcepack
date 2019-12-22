@@ -10,6 +10,15 @@ module.exports = {
             overrides: overrides
         }), "UTF-8");
     },
+	BLOCK_ITEM: (item, overrides) => {
+        fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
+            parent: "item/generated",
+            textures: {
+                "layer0": "block/" + item
+            },
+            overrides: overrides
+        }), "UTF-8");
+    },
 	FIREWORK_STAR: (item, overrides) => {
 		fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
             parent: "item/generated",
