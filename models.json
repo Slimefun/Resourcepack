@@ -767,5 +767,26 @@
 		"item": "iron_boots",
 		"template": "ITEM",
 		"data": 4001
+	},
+	
+	"_UI_BACKGROUND": {
+		"item": "gray_stained_glass_pane",
+		"template": "ITEM",
+		"data": 4000
+	},
+	"_UI_BACK": {
+		"item": "enchanted_book",
+		"template": "ITEM",
+		"data": 4001
+	},
+	"_UI_MENU": {
+		"item": "enchanted_book",
+		"template": "ITEM",
+		"data": 4002
+	},
+	"_UI_SEARCH": {
+		"item": "name_tag",
+		"template": "ITEM",
+		"data": 4000
 	}
 }
