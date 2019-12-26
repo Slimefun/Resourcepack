@@ -736,7 +736,7 @@
 	"SYNTHETIC_EMERALD": {
 		"item": "emerald",
 		"template": "ITEM",
-		"data": 4010
+		"data": 4011
 	},
 	"REINFORCED_PLATE": {
 		"item": "paper",
