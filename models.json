@@ -808,5 +808,10 @@
 		"item": "black_stained_glass_pane",
 		"template": "GLASS_PANE",
 		"data": 4001
+	},
+	"KELP_COOKIE": {
+		"item": "cookie",
+		"template": "ITEM",
+		"data": 4002
 	}
 }
