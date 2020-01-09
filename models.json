@@ -780,9 +780,9 @@
 		"data": 4001
 	},
 	"_UI_MENU": {
-		"item": "enchanted_book",
+		"item": "comparator",
 		"template": "ITEM",
-		"data": 4002
+		"data": 4000
 	},
 	"_UI_SEARCH": {
 		"item": "name_tag",
@@ -813,5 +813,15 @@
 		"item": "cookie",
 		"template": "ITEM",
 		"data": 4002
+	},
+	"BASIC_CIRCUIT_BOARD": {
+		"item": "activator_rail",
+		"template": "BLOCK",
+		"data": 4000
+	},
+	"ADVANCED_CIRCUIT_BOARD": {
+		"item": "powered_rail",
+		"template": "BLOCK",
+		"data": 4000
 	}
 }
