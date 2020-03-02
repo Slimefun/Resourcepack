@@ -10,6 +10,15 @@ module.exports = {
             overrides: overrides
         }), "UTF-8");
     },
+    FLAT_BLOCK: (item, overrides) => {
+        fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
+            parent: "item/generated",
+            textures: {
+                "layer0": "block/" + item
+            },
+            overrides: overrides
+        }), "UTF-8");
+    },
 	GLASS_PANE: (item, overrides) => {
         fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
             parent: "item/generated",
@@ -454,9 +463,7 @@ module.exports = {
 			}
 		]
 		
-		for (let face of faces) {
-			overrides.push(face);
-		}
+		overrides = faces.concat(overrides);
 		
 		fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
             parent: "item/generated",

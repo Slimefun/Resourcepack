@@ -816,12 +816,12 @@
 	},
 	"BASIC_CIRCUIT_BOARD": {
 		"item": "activator_rail",
-		"template": "BLOCK",
+		"template": "FLAT_BLOCK",
 		"data": 4000
 	},
 	"ADVANCED_CIRCUIT_BOARD": {
 		"item": "powered_rail",
-		"template": "BLOCK",
+		"template": "FLAT_BLOCK",
 		"data": 4000
 	}
 }
