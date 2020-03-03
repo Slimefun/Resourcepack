@@ -603,6 +603,18 @@
 		"template": "SKULL",
 		"data": 4033
 	},
+	"ORGANIC_FOOD_KELP": {
+		"id": "can_kelp",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4038
+	},
+	"FERTILIZER_KELP": {
+		"id": "can_kelp",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4039
+	},
 	"POWER_CRYSTAL": {
 		"item": "player_head",
 		"template": "SKULL",
@@ -822,6 +834,21 @@
 	"ADVANCED_CIRCUIT_BOARD": {
 		"item": "powered_rail",
 		"template": "FLAT_BLOCK",
+		"data": 4000
+	},
+	"NECROTIC_SKULL": {
+		"item": "wither_skeleton_skull",
+		"template": "SKULL",
+		"data": 4000
+	},
+	"PORTABLE_GEO_SCANNER": {
+		"item": "clock",
+		"template": "CLOCK",
+		"data": 4001
+	},
+	"NIGHT_VISION_GOGGLES": {
+		"item": "leather_helmet",
+		"template": "LEATHER_ARMOR",
 		"data": 4000
 	}
 }
