@@ -850,5 +850,45 @@
 		"item": "leather_helmet",
 		"template": "LEATHER_ARMOR",
 		"data": 4000
+	},
+	"ENHANCED_CRAFTING_TABLE": {
+		"item": "crafting_table",
+		"template": "BLOCK",
+		"data": 4000
+	},
+	"GRIND_STONE": {
+		"item": "dispenser",
+		"template": "BLOCK",
+		"data": 4000
+	},
+	"ORE_CRUSHER": {
+		"item": "dispenser",
+		"template": "BLOCK",
+		"data": 4001
+	},
+	"ARMOR_FORGE": {
+		"item": "anvil",
+		"template": "BLOCK",
+		"data": 4000
+	},
+	"JUICER": {
+		"item": "glass_bottle",
+		"template": "ITEM",
+		"data": 4000
+	},
+	"COMPRESSOR": {
+		"item": "piston",
+		"template": "BLOCK",
+		"data": 4000
+	},
+	"SMELTERY": {
+		"item": "furnace",
+		"template": "BLOCK",
+		"data": 4000
+	},
+	"MAKESHIFT_SMELTERY": {
+		"item": "blast_furnace",
+		"template": "BLOCK",
+		"data": 4000
 	}
 }
