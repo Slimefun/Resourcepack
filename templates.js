@@ -50,6 +50,12 @@ module.exports = {
             overrides: overrides
         }), "UTF-8");
 	},
+	PISTON: (item, overrides) => {
+		fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
+            parent: "block/piston_inventory",
+            overrides: overrides
+        }), "UTF-8");
+	},
 	HANDHELD: (item, overrides) => {
 		fs.writeFile(`assets/minecraft/models/item/${item}.json`, JSON.stringify({
             parent: "item/handheld",

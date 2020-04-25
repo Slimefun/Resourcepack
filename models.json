@@ -878,7 +878,7 @@
 	},
 	"COMPRESSOR": {
 		"item": "piston",
-		"template": "BLOCK",
+		"template": "PISTON",
 		"data": 4000
 	},
 	"SMELTERY": {
