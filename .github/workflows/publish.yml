@@ -25,7 +25,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           WITH_V: true
       - name: Generating Resourcepack
-        run: node generate.js
+        run: node src/generate.js
         env:
           GITHUB_RELEASE_VERSION: ${{ steps.create_version.outputs.new_tag }}
       - name: Zipping Resources

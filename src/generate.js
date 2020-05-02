@@ -7,7 +7,7 @@ const templates = require('./templates.js');
 Promise.all([
     fs.mkdir("assets/minecraft/models/item", {recursive:true}),
     fs.mkdir("assets/minecraft/models/slimefun", {recursive:true})
-]).then(() => fs.readFile("models.json", "UTF-8").then(models => {
+]).then(() => fs.readFile("src/models.json", "UTF-8").then(models => {
     let json = JSON.parse(models);
     let yml = `version: ${process.env.GITHUB_RELEASE_VERSION}\n`;
     let minecraft = {};
@@ -57,3 +57,9 @@ Promise.all([
     console.log("Exporting 'item-models.yml'");
     fs.writeFile("item-models.yml", yml, "UTF-8");
 }));
+
+fs.readFile("pack.mcmeta", "UTF-8").then(meta => {
+	meta = meta.replace("{version}", process.env.GITHUB_RELEASE_VERSION);
+    console.log("Updating 'pack.mcmeta'");
+    fs.writeFile("pack.mcmeta", meta, "UTF-8");
+});
