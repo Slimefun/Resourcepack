@@ -1,12 +1,16 @@
-name: Continuous Deployment
+name: Continuous Integration
+
 on:
   push:
     branches:
     - master
     
 jobs:
-  compile-pack:
+  compile:
+    
     runs-on: ubuntu-latest
+    if: contains(github.event.head_commit.message, '[ci skip]') == false
+    
     steps:
       - name: Checking out Repository
         uses: actions/checkout@v1
