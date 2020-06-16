@@ -912,5 +912,10 @@
 		"item": "bowl",
 		"template": "ITEM",
 		"data": 4002
+	},
+	"ORE_WASHER": {
+		"item": "cauldron",
+		"template": "ITEM",
+		"data": 4000
 	}
 }
