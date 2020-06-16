@@ -615,6 +615,18 @@
 		"template": "SKULL",
 		"data": 4039
 	},
+	"ORGANIC_FOOD_COCOA": {
+		"id": "can_cocoa",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4040
+	},
+	"FERTILIZER_COCOA": {
+		"id": "can_cocoa",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4041
+	},
 	"POWER_CRYSTAL": {
 		"item": "player_head",
 		"template": "SKULL",
@@ -856,6 +868,11 @@
 		"template": "BLOCK",
 		"data": 4000
 	},
+	"MAGIC_WORKBENCH": {
+		"item": "crafting_table",
+		"template": "BLOCK",
+		"data": 4001
+	},
 	"GRIND_STONE": {
 		"item": "dispenser",
 		"template": "BLOCK",
@@ -890,5 +907,10 @@
 		"item": "blast_furnace",
 		"template": "BLOCK",
 		"data": 4000
+	},
+	"AUTOMATED_PANNING_MACHINE": {
+		"item": "bowl",
+		"template": "ITEM",
+		"data": 4002
 	}
 }
