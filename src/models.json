@@ -917,5 +917,20 @@
 		"item": "cauldron",
 		"template": "ITEM",
 		"data": 4000
+	},
+	"KNIGHT_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4012
+	},
+	"WIZARD_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4013
+	},
+	"MAGICIAN_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4014
 	}
 }
