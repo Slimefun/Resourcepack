@@ -932,5 +932,10 @@
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4014
+	},
+	"WHIRLWIND_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4015
 	}
 }
