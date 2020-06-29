@@ -937,5 +937,70 @@
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4015
+	},
+	"ENDER_ANVIL_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4016
+	},
+	"ENDER_MINER_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4017
+	},
+	"ENDER_HUNTER_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4018
+	},
+	"ENDER_LAVA_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4019
+	},
+	"ENDER_WATER_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4020
+	},
+	"ENDER_ANGEL_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4021
+	},
+	"ENDER_KNIGHT_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4022
+	},
+	"ENDER_WIZARD_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4023
+	},
+	"ENDER_MAGICIAN_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4024
+	},
+	"ENDER_WHIRLWIND_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4025
+	},
+	"ENDER_TRAVELLER_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4026
+	},
+	"ENDER_WARRIOR_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4027
+	},
+	"ENDER_FIRE_TALISMAN": {
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4028
 	}
 }
