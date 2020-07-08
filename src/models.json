@@ -1002,5 +1002,20 @@
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4028
+	},
+	"DIAMOND_RING": {
+		"item": "gold_nugget",
+		"template": "ITEM",
+		"data": 4006
+	},
+	"EMERALD_RING": {
+		"item": "gold_nugget",
+		"template": "ITEM",
+		"data": 4007
+	},
+	"REINFORCED_CLOTH": {
+		"item": "paper",
+		"template": "ITEM",
+		"data": 4005
 	}
 }
