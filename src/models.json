@@ -1017,5 +1017,20 @@
 		"item": "paper",
 		"template": "ITEM",
 		"data": 4005
+	},
+	"SYNTHETIC_SAPPHIRE": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4037
+	},
+	"REACTOR_COLLANT_CELL": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4042
+	},
+	"NETHER_ICE_COOLANT_CELL": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4043
 	}
 }
