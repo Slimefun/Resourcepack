@@ -1032,5 +1032,40 @@
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4043
+	},
+	"SMALL_BACKPACK": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4044
+	},
+	"MEDIUM_BACKPACK": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4045
+	},
+	"LARGE_BACKPACK": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4046
+	},
+	"WOVEN_BACKPACK": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4047
+	},
+	"GILDED_BACKPACK": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4048
+	},
+	"RADIANT_BACKPACK": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4049
+	},
+	"RESTORED_BACKPACK": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4050
 	}
 }
