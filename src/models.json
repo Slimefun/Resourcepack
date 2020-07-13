@@ -1067,5 +1067,10 @@
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4050
+	},
+	"TAPE_MEASURE": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4051
 	}
 }
