@@ -1072,5 +1072,20 @@
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4051
+	},
+	"ENDER_BACKPACK": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4052
+	},
+	"BOUND_BACKPACK": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4053
+	},
+	"SOULBOUND_SWORD": {
+		"item": "diamond_sword",
+		"template": "HANDHELD",
+		"data": 4000
 	}
 }
