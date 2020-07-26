@@ -1087,5 +1087,10 @@
 		"item": "diamond_sword",
 		"template": "HANDHELD",
 		"data": 4000
+	},
+	"ANDROID_MEMORY_CORE": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4054
 	}
 }
