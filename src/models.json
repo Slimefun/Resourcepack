@@ -377,6 +377,11 @@
 		"template": "FIREWORK_STAR",
 		"data": 4009
 	},
+	"ANCIENT_RUNE_ENCHANTMENT": {
+		"item": "firework_star",
+		"template": "FIREWORK_STAR",
+		"data": 4010
+	},
 	"SLIMEFUN_GUIDE": {
 		"item": "enchanted_book",
 		"template": "ITEM",
@@ -1092,5 +1097,10 @@
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4054
+	},
+	"MAGICAL_GLASS": {
+		"item": "glass_pane",
+		"template": "GLASS_PANE",
+		"data": 4000
 	}
 }
