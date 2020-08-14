@@ -797,43 +797,50 @@
 		"template": "ITEM",
 		"data": 4001
 	},
-	
 	"_UI_BACKGROUND": {
+		"id": "gui/background",
 		"item": "gray_stained_glass_pane",
 		"template": "GLASS_PANE",
 		"data": 4000
 	},
 	"_UI_BACK": {
+		"id": "gui/back",
 		"item": "enchanted_book",
 		"template": "ITEM",
 		"data": 4001
 	},
 	"_UI_MENU": {
+		"id": "gui/settings",
 		"item": "comparator",
 		"template": "ITEM",
 		"data": 4000
 	},
 	"_UI_SEARCH": {
+		"id": "gui/search",
 		"item": "name_tag",
 		"template": "ITEM",
 		"data": 4000
 	},
 	"_UI_PREVIOUS_ACTIVE": {
+		"id": "gui/previous_active",
 		"item": "lime_stained_glass_pane",
 		"template": "GLASS_PANE",
 		"data": 4000
 	},
 	"_UI_NEXT_ACTIVE": {
+		"id": "gui/next_active",
 		"item": "lime_stained_glass_pane",
 		"template": "GLASS_PANE",
 		"data": 4001
 	},
 	"_UI_PREVIOUS_INACTIVE": {
+		"id": "gui/previous_inactive",
 		"item": "black_stained_glass_pane",
 		"template": "GLASS_PANE",
 		"data": 4000
 	},
 	"_UI_NEXT_INACTIVE": {
+		"id": "gui/next_inactive",
 		"item": "black_stained_glass_pane",
 		"template": "GLASS_PANE",
 		"data": 4001
@@ -1102,5 +1109,47 @@
 		"item": "glass_pane",
 		"template": "GLASS_PANE",
 		"data": 4000
+	},
+	"_UI_LANGUAGE_ENGLISH": {
+		"id": "gui/flags/united_kingdom",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4055
+	},
+	"_UI_LANGUAGE_GERMAN": {
+		"id": "gui/flags/germany",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4056
+	},
+	"_UI_LANGUAGE_FRENCH": {
+		"id": "gui/flags/france",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4057
+	},
+	"_UI_LANGUAGE_ITALIAN": {
+		"id": "gui/flags/italy",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4058
+	},
+	"_UI_LANGUAGE_SPANISH": {
+		"id": "gui/flags/spain",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4059
+	},
+	"_UI_LANGUAGE_RUSSIAN": {
+		"id": "gui/flags/russia",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4060
+	},
+	"_UI_LANGUAGE_POLISH": {
+		"id": "gui/flags/poland",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4061
 	}
 }
