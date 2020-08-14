@@ -6,7 +6,7 @@ const templates = require('./templates.js');
 
 Promise.all([
     fs.mkdir("assets/minecraft/models/item", {recursive:true}),
-    fs.mkdir("assets/minecraft/models/slimefun", {recursive:true})
+    fs.mkdir("assets/minecraft/models/slimefun/gui/flags", {recursive:true})
 ]).then(() => fs.readFile("src/models.json", "UTF-8").then(models => {
     let json = JSON.parse(models);
     let yml = `version: ${process.env.GITHUB_RELEASE_VERSION}\n`;
@@ -17,8 +17,12 @@ Promise.all([
         console.log(`Found ${cfg.template} "${slimefunItem}"`);
         yml += slimefunItem + ": " + cfg.data + "\n";
 
-        if (!minecraft[cfg.item]) minecraft[cfg.item] = [slimefunItem];
-        else minecraft[cfg.item].push(slimefunItem);
+        if (!minecraft[cfg.item]) {
+			minecraft[cfg.item] = [slimefunItem];
+		}
+        else {
+			minecraft[cfg.item].push(slimefunItem);
+		}
 
         console.log("Generating 'model.json'...");
 		let id = cfg.id ? cfg.id: slimefunItem.toLowerCase();
