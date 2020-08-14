@@ -1151,5 +1151,65 @@
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4061
+	},
+	"_UI_LANGUAGE_UK": {
+		"id": "gui/flags/ukraine",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4062
+	},
+	"_UI_LANGUAGE_BE": {
+		"id": "gui/flags/belarus",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4063
+	},
+	"_UI_LANGUAGE_SV": {
+		"id": "gui/flags/sweden",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4064
+	},
+	"_UI_LANGUAGE_NL": {
+		"id": "gui/flags/netherlands",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4065
+	},
+	"_UI_LANGUAGE_DA": {
+		"id": "gui/flags/denmark",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4066
+	},
+	"_UI_LANGUAGE_FI": {
+		"id": "gui/flags/finland",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4067
+	},
+	"_UI_LANGUAGE_NO": {
+		"id": "gui/flags/norway",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4068
+	},
+	"_UI_LANGUAGE_CS": {
+		"id": "gui/flags/czech",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4069
+	},
+	"_UI_LANGUAGE_RO": {
+		"id": "gui/flags/romania",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4070
+	},
+	"_UI_LANGUAGE_BG": {
+		"id": "gui/flags/bulgaria",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4071
 	}
 }
