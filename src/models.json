@@ -1110,43 +1110,43 @@
 		"template": "GLASS_PANE",
 		"data": 4000
 	},
-	"_UI_LANGUAGE_ENGLISH": {
+	"_UI_LANGUAGE_EN": {
 		"id": "gui/flags/united_kingdom",
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4055
 	},
-	"_UI_LANGUAGE_GERMAN": {
+	"_UI_LANGUAGE_DE": {
 		"id": "gui/flags/germany",
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4056
 	},
-	"_UI_LANGUAGE_FRENCH": {
+	"_UI_LANGUAGE_FR": {
 		"id": "gui/flags/france",
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4057
 	},
-	"_UI_LANGUAGE_ITALIAN": {
+	"_UI_LANGUAGE_IT": {
 		"id": "gui/flags/italy",
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4058
 	},
-	"_UI_LANGUAGE_SPANISH": {
+	"_UI_LANGUAGE_ES": {
 		"id": "gui/flags/spain",
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4059
 	},
-	"_UI_LANGUAGE_RUSSIAN": {
+	"_UI_LANGUAGE_RU": {
 		"id": "gui/flags/russia",
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4060
 	},
-	"_UI_LANGUAGE_POLISH": {
+	"_UI_LANGUAGE_PL": {
 		"id": "gui/flags/poland",
 		"item": "player_head",
 		"template": "SKULL",
