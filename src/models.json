@@ -1259,5 +1259,41 @@
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4071
+	},
+	"_UI_LANGUAGE_PT": {
+		"id": "gui/flags/portugal",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4072
+	},
+	"_UI_LANGUAGE_PT-BR": {
+		"id": "gui/flags/brazil",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4073
+	},
+	"_UI_LANGUAGE_HU": {
+		"id": "gui/flags/hungary",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4074
+	},
+	"_UI_LANGUAGE_HR": {
+		"id": "gui/flags/croatia",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4075
+	},
+	"_UI_LANGUAGE_LV": {
+		"id": "gui/flags/latvia",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4076
+	},
+	"_UI_LANGUAGE_EL": {
+		"id": "gui/flags/greece",
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4077
 	}
 }
