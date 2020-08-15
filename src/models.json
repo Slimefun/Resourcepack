@@ -678,41 +678,49 @@
 		"data": 4001
 	},
 	"COMMON_TALISMAN": {
+	    "id": "talismans/common_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4000
 	},
 	"ENDER_TALISMAN": {
+	    "id": "talismans/ender_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4001
 	},
 	"ANVIL_TALISMAN": {
+	    "id": "talismans/anvil_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4002
 	},
 	"MINER_TALISMAN": {
+	    "id": "talismans/miner_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4003
 	},
 	"HUNTER_TALISMAN": {
+	    "id": "talismans/hunter_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4004
 	},
 	"LAVA_TALISMAN": {
+	    "id": "talismans/lava_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4005
 	},
 	"WATER_TALISMAN": {
+	    "id": "talismans/water_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4006
 	},
 	"ANGEL_TALISMAN": {
+	    "id": "talismans/angel_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4007
@@ -738,16 +746,19 @@
 		"data": 4014
 	},
 	"TRAVELLER_TALISMAN": {
+	    "id": "talismans/traveller_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4008
 	},
 	"WARRIOR_TALISMAN": {
+	    "id": "talismans/warrior_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4009
 	},
 	"FIRE_TALISMAN": {
+	    "id": "talismans/fire_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4010
@@ -876,141 +887,169 @@
 		"data": 4000
 	},
 	"ENHANCED_CRAFTING_TABLE": {
+	    "id": "multiblocks/enhanced_crafting_table",
 		"item": "crafting_table",
 		"template": "BLOCK",
 		"data": 4000
 	},
 	"MAGIC_WORKBENCH": {
+	    "id": "multiblocks/magic_workbench",
 		"item": "crafting_table",
 		"template": "BLOCK",
 		"data": 4001
 	},
 	"GRIND_STONE": {
+	    "id": "multiblocks/grind_stone",
 		"item": "dispenser",
 		"template": "BLOCK",
 		"data": 4000
 	},
 	"ORE_CRUSHER": {
+	    "id": "multiblocks/ore_crusher",
 		"item": "dispenser",
 		"template": "BLOCK",
 		"data": 4001
 	},
 	"ARMOR_FORGE": {
+	    "id": "multiblocks/armor_forge",
 		"item": "anvil",
 		"template": "BLOCK",
 		"data": 4000
 	},
 	"JUICER": {
+	    "id": "multiblocks/juicer",
 		"item": "glass_bottle",
 		"template": "ITEM",
 		"data": 4000
 	},
 	"COMPRESSOR": {
+	    "id": "multiblocks/compressor",
 		"item": "piston",
 		"template": "PISTON",
 		"data": 4000
 	},
 	"SMELTERY": {
+	    "id": "multiblocks/smeltery",
 		"item": "furnace",
 		"template": "BLOCK",
 		"data": 4000
 	},
 	"MAKESHIFT_SMELTERY": {
+	    "id": "multiblocks/makeshift_smeltery",
 		"item": "blast_furnace",
 		"template": "BLOCK",
 		"data": 4000
 	},
 	"AUTOMATED_PANNING_MACHINE": {
+	    "id": "multiblocks/automated_panning_machine",
 		"item": "bowl",
 		"template": "ITEM",
 		"data": 4002
 	},
 	"ORE_WASHER": {
+	    "id": "multiblocks/ore_washer",
 		"item": "cauldron",
 		"template": "ITEM",
 		"data": 4000
 	},
 	"KNIGHT_TALISMAN": {
+	    "id": "talismans/knight_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4012
 	},
 	"WIZARD_TALISMAN": {
+	    "id": "talismans/wizard_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4013
 	},
 	"MAGICIAN_TALISMAN": {
+	    "id": "talismans/magician_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4014
 	},
 	"WHIRLWIND_TALISMAN": {
+	    "id": "talismans/whirlwind_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4015
 	},
 	"ENDER_ANVIL_TALISMAN": {
+	    "id": "talismans/ender_anvil_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4016
 	},
 	"ENDER_MINER_TALISMAN": {
+	    "id": "talismans/ender_miner_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4017
 	},
 	"ENDER_HUNTER_TALISMAN": {
+	    "id": "talismans/ender_hunter_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4018
 	},
 	"ENDER_LAVA_TALISMAN": {
+	    "id": "talismans/ender_lava_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4019
 	},
 	"ENDER_WATER_TALISMAN": {
+	    "id": "talismans/ender_water_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4020
 	},
 	"ENDER_ANGEL_TALISMAN": {
+	    "id": "talismans/ender_angel_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4021
 	},
 	"ENDER_KNIGHT_TALISMAN": {
+	    "id": "talismans/ender_knight_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4022
 	},
 	"ENDER_WIZARD_TALISMAN": {
+	    "id": "talismans/ender_wizard_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4023
 	},
 	"ENDER_MAGICIAN_TALISMAN": {
+	    "id": "talismans/ender_magician_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4024
 	},
 	"ENDER_WHIRLWIND_TALISMAN": {
+	    "id": "talismans/ender_whirlwind_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4025
 	},
 	"ENDER_TRAVELLER_TALISMAN": {
+	    "id": "talismans/ender_traveller_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4026
 	},
 	"ENDER_WARRIOR_TALISMAN": {
+	    "id": "talismans/ender_warrior_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4027
 	},
 	"ENDER_FIRE_TALISMAN": {
+	    "id": "talismans/ender_fire_talisman",
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4028
@@ -1046,36 +1085,43 @@
 		"data": 4043
 	},
 	"SMALL_BACKPACK": {
+	    "id": "backpacks/small_backpack",
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4044
 	},
 	"MEDIUM_BACKPACK": {
+	    "id": "backpacks/medium_backpack",
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4045
 	},
 	"LARGE_BACKPACK": {
+	    "id": "backpacks/large_backpack",
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4046
 	},
 	"WOVEN_BACKPACK": {
+	    "id": "backpacks/woven_backpack",
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4047
 	},
 	"GILDED_BACKPACK": {
+	    "id": "backpacks/gilded_backpack",
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4048
 	},
 	"RADIANT_BACKPACK": {
+	    "id": "backpacks/radiant_backpack",
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4049
 	},
 	"RESTORED_BACKPACK": {
+	    "id": "backpacks/restored_backpack",
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4050
@@ -1086,11 +1132,13 @@
 		"data": 4051
 	},
 	"ENDER_BACKPACK": {
+	    "id": "backpacks/ender_backpack",
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4052
 	},
 	"BOUND_BACKPACK": {
+	    "id": "backpacks/soulbound_backpack",
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4053
