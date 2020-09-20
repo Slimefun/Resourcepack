@@ -333,54 +333,70 @@
 		"data": 4001
 	},
 	"BLANK_RUNE": {
+		"id": "runes/blank",
 		"item": "firework_star",
 		"template": "FIREWORK_STAR",
 		"data": 4001
 	},
 	"ANCIENT_RUNE_WATER": {
+		"id": "runes/water",
 		"item": "firework_star",
 		"template": "FIREWORK_STAR",
 		"data": 4002
 	},
 	"ANCIENT_RUNE_FIRE": {
+		"id": "runes/fire",
 		"item": "firework_star",
 		"template": "FIREWORK_STAR",
 		"data": 4003
 	},
 	"ANCIENT_RUNE_AIR": {
+		"id": "runes/air",
 		"item": "firework_star",
 		"template": "FIREWORK_STAR",
 		"data": 4004
 	},
 	"ANCIENT_RUNE_EARTH": {
+		"id": "runes/earth",
 		"item": "firework_star",
 		"template": "FIREWORK_STAR",
 		"data": 4005
 	},
 	"ANCIENT_RUNE_ENDER": {
+		"id": "runes/ender",
 		"item": "firework_star",
 		"template": "FIREWORK_STAR",
 		"data": 4006
 	},
 	"ANCIENT_RUNE_LIGHTNING": {
+		"id": "runes/lightning",
 		"item": "firework_star",
 		"template": "FIREWORK_STAR",
 		"data": 4007
 	},
 	"ANCIENT_RUNE_RAINBOW": {
+		"id": "runes/rainbow",
 		"item": "firework_star",
 		"template": "FIREWORK_STAR",
 		"data": 4008
 	},
 	"ANCIENT_RUNE_SOULBOUND": {
+		"id": "runes/soulbound",
 		"item": "firework_star",
 		"template": "FIREWORK_STAR",
 		"data": 4009
 	},
 	"ANCIENT_RUNE_ENCHANTMENT": {
+		"id": "runes/enchantment",
 		"item": "firework_star",
 		"template": "FIREWORK_STAR",
 		"data": 4010
+	},
+	"ANCIENT_RUNE_VILLAGERS": {
+		"id": "runes/villagers",
+		"item": "firework_star",
+		"template": "FIREWORK_STAR",
+		"data": 4011
 	},
 	"SLIMEFUN_GUIDE": {
 		"item": "enchanted_book",
@@ -676,6 +692,11 @@
 		"item": "iron_pickaxe",
 		"template": "HANDHELD",
 		"data": 4001
+	},
+	"CLIMBING_PICK": {
+		"item": "iron_pickaxe",
+		"template": "HANDHELD",
+		"data": 4002
 	},
 	"COMMON_TALISMAN": {
 	    "id": "talismans/common_talisman",
@@ -1156,6 +1177,11 @@
 	"MAGICAL_GLASS": {
 		"item": "glass_pane",
 		"template": "GLASS_PANE",
+		"data": 4000
+	},
+	"STRANGE_NETHER_GOO": {
+		"item": "purple_dye",
+		"template": "ITEM",
 		"data": 4000
 	},
 	"_UI_LANGUAGE_EN": {
