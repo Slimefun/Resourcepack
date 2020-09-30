@@ -835,6 +835,18 @@
 		"template": "GLASS_PANE",
 		"data": 4000
 	},
+	"_UI_INPUT_SLOT": {
+		"id": "gui/input_slot",
+		"item": "cyan_stained_glass_pane",
+		"template": "GLASS_PANE",
+		"data": 4000
+	},
+	"_UI_OUTPUT_SLOT": {
+		"id": "gui/output_slot",
+		"item": "orange_stained_glass_pane",
+		"template": "GLASS_PANE",
+		"data": 4000
+	},
 	"_UI_BACK": {
 		"id": "gui/back",
 		"item": "enchanted_book",
