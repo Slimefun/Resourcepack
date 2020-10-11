@@ -13,14 +13,14 @@ jobs:
     
     steps:
       - name: Checking out Repository
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2.3.3
       - name: Setting up node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.1.2
         with:
-          node-version: '10.x'
+          node-version: '12'
       - name: Creating new semantic version
         id: create_version
-        uses: anothrNick/github-tag-action@1.8.0
+        uses: anothrNick/github-tag-action@1.26.0
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           WITH_V: true
@@ -43,7 +43,7 @@ jobs:
           draft: false
           prerelease: true
       - name: Upload Resourcepack.zip
-        uses: actions/upload-release-asset@v1.0.1
+        uses: actions/upload-release-asset@v1.0.2
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
@@ -52,7 +52,7 @@ jobs:
           asset_name: Slimefun4-Resourcepack-${{ steps.create_version.outputs.new_tag }}.zip
           asset_content_type: application/zip
       - name: Upload item-models.yml
-        uses: actions/upload-release-asset@v1.0.1
+        uses: actions/upload-release-asset@v1.0.2
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:

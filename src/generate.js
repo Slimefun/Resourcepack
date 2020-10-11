@@ -6,11 +6,11 @@ const templates = require('./templates.js');
 
 Promise.all([
     fs.mkdir("assets/minecraft/models/item", {recursive:true}),
-    fs.mkdir("assets/minecraft/models/slimefun/backpacks", {recursive:true}),
-    fs.mkdir("assets/minecraft/models/slimefun/talismans", {recursive:true}),
-    fs.mkdir("assets/minecraft/models/slimefun/multiblocks", {recursive:true}),
-    fs.mkdir("assets/minecraft/models/slimefun/runes", {recursive:true}),
-    fs.mkdir("assets/minecraft/models/slimefun/gui/flags", {recursive:true})
+    fs.mkdir("assets/slimefun/models/item/backpacks", {recursive:true}),
+    fs.mkdir("assets/slimefun/models/item/talismans", {recursive:true}),
+    fs.mkdir("assets/slimefun/models/item/multiblocks", {recursive:true}),
+    fs.mkdir("assets/slimefun/models/item/runes", {recursive:true}),
+    fs.mkdir("assets/slimefun/models/item/gui/flags", {recursive:true})
 ]).then(() => fs.readFile("src/models.json", "UTF-8").then(models => {
     let json = JSON.parse(models);
     let yml = `version: ${process.env.GITHUB_RELEASE_VERSION}\n`;
@@ -32,10 +32,10 @@ Promise.all([
 		let id = cfg.id ? cfg.id: slimefunItem.toLowerCase();
 		let texture = cfg.texture ? cfg.texture: id;
 
-        fs.writeFile(`assets/minecraft/models/slimefun/${id}.json`, JSON.stringify({
+        fs.writeFile(`assets/slimefun/models/item/${id}.json`, JSON.stringify({
             parent: "item/generated",
             textures: {
-                "layer0": "slimefun/" + texture
+                "layer0": "slimefun:item/" + texture
             }
         }), "UTF-8");
     }
@@ -54,7 +54,7 @@ Promise.all([
                 predicate: {
                     custom_model_data: slimefunItem.data
                 },
-                "model": "slimefun/" + id
+                "model": "slimefun:item/" + id
             });
         }
 
