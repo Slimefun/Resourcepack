@@ -1009,6 +1009,12 @@
 		"template": "ITEM",
 		"data": 4015
 	},
+	"CAVEMAN_TALISMAN": {
+	    "id": "talismans/caveman_talisman",
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4029
+	},
 	"ENDER_ANVIL_TALISMAN": {
 	    "id": "talismans/ender_anvil_talisman",
 		"item": "emerald",
@@ -1086,6 +1092,12 @@
 		"item": "emerald",
 		"template": "ITEM",
 		"data": 4028
+	},
+	"ENDER_CAVEMAN_TALISMAN": {
+	    "id": "talismans/ender_caveman_talisman",
+		"item": "emerald",
+		"template": "ITEM",
+		"data": 4030
 	},
 	"DIAMOND_RING": {
 		"item": "gold_nugget",
@@ -1333,5 +1345,10 @@
 		"item": "player_head",
 		"template": "SKULL",
 		"data": 4077
+	},
+	"PORTABLE_CRAFTER": {
+		"item": "player_head",
+		"template": "SKULL",
+		"data": 4078
 	}
 }
