@@ -17,7 +17,7 @@ jobs:
       - name: Setting up node.js
         uses: actions/setup-node@v2.1.2
         with:
-          node-version: '12'
+          node-version: '24'
       - name: Creating new semantic version
         id: create_version
         uses: anothrNick/github-tag-action@1.33.0
